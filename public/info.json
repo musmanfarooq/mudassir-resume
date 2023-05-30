@@ -1,0 +1,91 @@
+{
+  "name": "Mudassir Maqsood Khan",
+  "contactInfo": {
+    "address": "100/27 Bennelong Parkway <b> Wentworth </b>",
+    "state": "Sydney 2127",
+    "mobile": "(+61) 493 435 140",
+    "email": "muddassirmaqsoodkhan@yahoo.com"
+  },
+  "csProfile": {
+    "name": "CONTROL SYSTEM ENGINEER PROFILE:",
+    "points": [
+      {
+        "description": "Experienced in Allen Bradley, Studio 5000, Factory Talk View Studio and RS Logix as a Control Systems Engineer, including experience in system integration, testing and commissioning activities of the PLC- based Management Control Systems for $7.2 billion <b> M4-M5 WestConnex Tunnel. </b>"
+      },
+      {
+        "description": "High proficiency in control systems and automation, circuit designing and coding and PID. Familiarized with GE Proficy Historians Software and Proficy Plant Applications."
+      },
+      {
+        "description": "Experienced in Allen Bradley, Yokogawa DCS, TIA Portal, and HMI as a Graduate Mechatronics Engineer for the maintenance of CGPF/GPF Oil and Gas Plant at <b> Makori Plant Karak </b>, Pakistan."
+      },
+      {
+        "description": "Delivered major projects as part of bachelor’s degree including Fully Automated Solar Panel Cleaning Robot – DetergeoBot Patent with manual. Designed an indigenous robot and its mechanism of ball potting of different colors for NERC NUST. Developed an IoT-based device for the safety precautions of parents, informing them about the vehicle's current location if their kids exceed a specific limit while driving. Led the team in Hackathon CEME NUST 2018 with the above idea and succeeded in grabbing the best pitch award."
+      }
+    ]
+  },
+  "keyskills": {
+    "name": "KEY ENGINEERING SKILLS:",
+    "points": [
+      {
+        "title": "Programming: ",
+        "description": "Experience in PLC programming for Rockwell Studio 5000 and Siemens S7 using IEC 61131-3 languages (ladder, structured text & SFC)."
+      },
+      {
+        "title": "Commissioning: ",
+        "description": "Testing and commissioning of 9000 assets in the WestConnex tunnel and taking part in Factory Acceptance Tests, Site Acceptance Tests and Site Commissioning activities for OMCS and IOMCS."
+      },
+      {
+        "title": "AutoCAD: ",
+        "description": "Experience in AutoCAD to create detailed technical drawings developed in my role at TechTis Solutions."
+      },
+      {
+        "title": "Matlab/Cadence: ",
+        "description": "Implemented EKF using MATLAB to efficiently convert a non-linearized system to a linearized system to any mechanical or electrical energy-based system."
+      },
+      {
+        "title": "Circuit design: ",
+        "description": "Designed H Bridges for the motors of three robots using Pspice and designed the whole body of robot using AutoCad and SolidWorks (Bachelor’s Project)."
+      },
+      {
+        "title": "Software Skills: ",
+        "description": "Proficient in C/C++ programming, LabVIEW MS Office Suite, and Electrical Cad."
+      },
+      {
+        "title": "Team Player: ",
+        "description": "Effective team player, capable of collaborating and negotiating tasks demonstrated from working at Coengineer and TechTis Solutions."
+      },
+      {
+        "title": "Multitasking: ",
+        "description": "Strong multitasking skills to effectively organize and prioritize tasks acquired by successfully completing projects."
+      },
+      {
+        "title": "Problem Solving: ",
+        "description": "Accurate and prompt problem solving skills to resolve team member’s queries demonstrated whilst working as a Level 5-6 Test Engineer at Coengineer."
+      },
+      {
+        "title": "Communication: ",
+        "description": "Effective verbal and non-verbal communication skills gained through liaising with Clients on aspects of specifications, technical information, datasheets, and quotations."
+      },
+      {
+        "title": "Leadership: ",
+        "description": "Strong leadership skills demonstrated through efficiently managing a team of up to three as well as providing training and support at Coengineer."
+      }
+    ]
+  },
+  "qualification": {
+    "name": "QUALIFICATIONS:",
+    "points": [
+      {
+        "title": "Master of Engineering in Mechanical Engineering",
+        "description": " - University of Wollongong 2024"
+      },
+      {
+        "title": "Bachelor of Engineering in Mechatronics Engineering",
+        "description": " - National University of Sciences and Technology 2019"
+      }
+    ]
+  },
+  "employment": {
+    "name": "EMPLOYMENT HISTORY: "
+  }
+}
