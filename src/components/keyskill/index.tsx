@@ -1,4 +1,4 @@
-import { SubHeading } from "@/typography";
+import { Divider, SubHeading } from "@/typography";
 import BulletPoints from "../bulletpoints";
 
 interface CurrentJobProps {
@@ -9,7 +9,7 @@ export default function KeySkill({ data }: CurrentJobProps) {
     <>
       {data && (
         <>
-          <SubHeading className="mb-5">{data.name}</SubHeading>
+          <SubHeading className="mb-5">{data.title}</SubHeading>
           {data.points.map(({ description, index, title }: any) => (
             <div key={index}>
               <BulletPoints title={title} description={description}/>
@@ -17,6 +17,7 @@ export default function KeySkill({ data }: CurrentJobProps) {
           ))}
         </>
       )}
+      <Divider className="w-full" />
     </>
   );
 }

@@ -1,26 +1,33 @@
 import { HyperLink, Text } from "@/typography";
-import convertToBold from "@/utlis/convertToBold";
+import { removeBoldTags } from "@/utlis/convertToBold";
 
 interface ContactProp {
   data: any;
 }
 
 export default function Contact({ data }: ContactProp) {
-  const contactdata = data;
-
   return (
     <>
-      {contactdata && (
-        <div className="text-right text-[#4aafda]">
-          <Text>Address: {contactdata.address}</Text>
-          <Text>State/PCode: {contactdata.state}</Text>
-          <Text>Mobile: {contactdata.mobile}</Text>
-          <Text className="inline">Email: </Text>
-          <HyperLink className="inline" herf={`mailto:${contactdata.email}`}>
-            {contactdata.email}
-          </HyperLink>
+      {data?.contactdata.map(({ description, index, title }: any) => {
+        return (
+          <div className="flex gap-2 justify-end" key={index}>
+            <Text>{title}</Text>
+            <Text>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: removeBoldTags(description),
+                }}
+              />
+            </Text>
+          </div>
+        );
+      })}
+      {data?.hyperlink.map(({ description, index, title }: any) => (
+        <div className="flex gap-2 justify-end" key={index}>
+          <Text>{title}</Text>
+          <HyperLink herf={`mailto:${description}`}>{description}</HyperLink>
         </div>
-      )}
+      ))}
     </>
   );
 }

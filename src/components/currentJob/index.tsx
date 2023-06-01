@@ -1,4 +1,4 @@
-import { SubHeading } from "@/typography";
+import { Divider, SubHeading } from "@/typography";
 import BulletPoints from "../bulletpoints";
 
 interface CurrentJobProps {
@@ -9,14 +9,15 @@ export default function CurrentJob({ data }: CurrentJobProps) {
     <>
       {data && (
         <>
-          <SubHeading className="mb-5">{data.name}</SubHeading>
-          {data.points.map(({ description, index, title }: any) => (
+          <SubHeading className="mb-5">{data.title}</SubHeading>
+          {data.points.map(({ description, index }: any) => (
             <div key={index}>
               <BulletPoints description={description}/>
             </div>
           ))}
         </>
       )}
+      <Divider className="w-full" />
     </>
   );
 }

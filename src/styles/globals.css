@@ -5,6 +5,8 @@
 body {
   background: #FDFDFD;
   padding: 12px 60px;
+  max-width: 1475px;
+  margin: 0 auto;
 }
 
 @media (max-width: 576px) {

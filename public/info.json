@@ -1,13 +1,29 @@
 {
   "name": "Mudassir Maqsood Khan",
   "contactInfo": {
-    "address": "100/27 Bennelong Parkway <b> Wentworth </b>",
-    "state": "Sydney 2127",
-    "mobile": "(+61) 493 435 140",
-    "email": "muddassirmaqsoodkhan@yahoo.com"
+    "contactdata": [
+      {
+        "title": "Address: ",
+        "description": "100/27 Bennelong Parkway <b> Wentworth </b>"
+      },
+      {
+        "title": "State: ",
+        "description": "Sydney 2127"
+      },
+      {
+        "title": "Mobile: ",
+        "description": "(+61) 493 435 140"
+      }
+    ],
+    "hyperlink": [
+      {
+        "title": "Email: ",
+        "description": "muddassirmaqsoodkhan@yahoo.com"
+      }
+    ]
   },
   "csProfile": {
-    "name": "CONTROL SYSTEM ENGINEER PROFILE:",
+    "title": "CONTROL SYSTEM ENGINEER PROFILE:",
     "points": [
       {
         "description": "Experienced in Allen Bradley, Studio 5000, Factory Talk View Studio and RS Logix as a Control Systems Engineer, including experience in system integration, testing and commissioning activities of the PLC- based Management Control Systems for $7.2 billion <b> M4-M5 WestConnex Tunnel. </b>"
@@ -24,7 +40,7 @@
     ]
   },
   "keyskills": {
-    "name": "KEY ENGINEERING SKILLS:",
+    "title": "KEY ENGINEERING SKILLS:",
     "points": [
       {
         "title": "Programming: ",
@@ -73,7 +89,7 @@
     ]
   },
   "qualification": {
-    "name": "QUALIFICATIONS:",
+    "title": "QUALIFICATIONS:",
     "points": [
       {
         "title": "Master of Engineering in Mechanical Engineering",
@@ -86,6 +102,105 @@
     ]
   },
   "employment": {
-    "name": "EMPLOYMENT HISTORY: "
+    "title": "EMPLOYMENT HISTORY: ",
+    "data": [
+      {
+        "position": "CONTROL SYSTEM ENGINEER",
+        "timeperiod": "February 2022 — Present",
+        "company": "COENGINEER, SYDNEY, AUSTRAILIA",
+        "subheading": "Responsibilities:",
+        "points": [
+          {
+            "data": "SAT/SIT testing a wide range of field equipment including Fans, Dampers, Distribution boards & Multiple types of Instruments and liaising with Electricians/Other Teams."
+          },
+          {
+            "data": "Supervising the installation and commissioning of the control systems and their integration on SCADA and ensuring proper control and protection methods."
+          },
+          {
+            "data": "Managed work associated with lighting fixtures, low voltage power equipment, circuit-breaker panels, ventilation fans, and associated automatic transfer switches."
+          },
+          {
+            "data": "Developed the method of procedures for electrical work to be performed while all critical loads and essential panels were energized."
+          },
+          {
+            "data": "Collaborated with other managers, supervisors and team leads to ensure adherence to proposed delivery schedules and to implement improvement processes during Level 5 & 6 Test."
+          },
+          {
+            "data": "Liaison between technicians and engineers. Submitting as-builds to engineering and tracking updated plans."
+          },
+          {
+            "data": "Act as direct point of contact for both subcontractors and client; provided updates daily via Atlassian."
+          }
+        ]
+      },
+      {
+        "position": "GRADUATE MECHATRONICS ENGINEER",
+        "timeperiod": "Augusr 2019 — December 2021",
+        "company": "TECHTIS SOLUTIONS, ISLAMABAD, PAKISTAN",
+        "subheading": "Responsibilities:",
+        "points": [
+          {
+            "data": "I worked on Allen Bradley, Studio 5000, Factory Talk View Studio, and RS Logix, along with experience in system integration, testing, and commissioning activities of the PLC-based Plant Management Control Systems of Manzalai Central Gas Processing Facility."
+          },
+          {
+            "data": "DCS Honeywell Experion, Yokogawa Centum CS300, HIMA H51Q PLC and ELOP ll for ESD as a Graduate Trainee Engineer, including experience in documenting and testing the PLC logic and HMI applications"
+          },
+          {
+            "data": "Supervising the installation and maintenance of the control systems PLC’s during the annual maintenance."
+          },
+          {
+            "data": "Developing procedures and test documentation to test electronic components, circuits, and systems."
+          },
+          {
+            "data": "I created and modified 3D models on Solidworks/OpenPlant, providing FEA analysis on ANSYS/AutoPipe."
+          },
+          {
+            "data": "I offered an optimized design using the FEA analysis and performed design calculations, determined the equipment/ material specifications, and met time and cost budgets following the ASME/ASTM Standards provided by the organization."
+          },
+          {
+            "data": "I created the project scope and deliverables and provided technical support to the engineering team."
+          }
+        ]
+      }
+    ]
+  },
+  "achievement": {
+    "title": "ACHIEVEMENTS:",
+    "data": [
+      {
+        "description": "GPA Merit Scholarship for Bachelor of Mechatronics Engineering at NUST."
+      },
+      {
+        "description": "Received the prestigious NCRA and Koh-i-Noor Textile Mills R&D Fund for the Final Year Project."
+      },
+      {
+        "description": "Winner of the National Engineering Robotics Contest 2018."
+      },
+      {
+        "description": "Best Pitch Award for Hackathon 2017 NUST."
+      }
+    ]
+  },
+  "license": {
+    "title": "LICENSES AND ACCREDITATION:",
+    "data": [
+      {
+        "description": "Washington Accord Accredited"
+      },
+      {
+        "description": "MS Office Specialist Certification"
+      },
+      {
+        "description": "Construction White Card (Australia)"
+      }
+    ]
+  },
+  "referee": {
+    "title": "REFEREES:",
+    "data": [
+      {
+        "description": "Available upon request."
+      }
+    ]
   }
 }

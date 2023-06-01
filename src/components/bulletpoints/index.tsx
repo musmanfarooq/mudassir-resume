@@ -1,4 +1,5 @@
 import { Text } from "@/typography";
+import { removeBoldTags } from "@/utlis/convertToBold";
 
 interface BulletPointsProps {
   description: string;
@@ -21,7 +22,11 @@ export default function BulletPoints({
       </svg>
       <div className="w-[100%]">
         <Text className="inline font-bold">{title}</Text>
-        <Text className="inline  text-justify">{description}</Text>
+        <Text className="inline text-justify">
+          <span
+            dangerouslySetInnerHTML={{ __html: removeBoldTags(description) }}
+          />
+        </Text>
       </div>
     </div>
   );

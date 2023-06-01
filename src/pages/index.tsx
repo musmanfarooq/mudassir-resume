@@ -5,6 +5,8 @@ import { Divider, Heading } from "@/typography";
 import CurrentJob from "@/components/currentJob";
 import KeySkill from "@/components/keyskill";
 import Qualification from "@/components/qualification";
+import EmploymentHistory from "@/components/employmenthistory";
+import Achivement from "@/components/achivement";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,6 +29,36 @@ interface Data {
   qualification: {
     name: string;
     points: any;
+  };
+  employment: {
+    name: string;
+    data: {
+      position: string;
+      timeperiod: string;
+      company: string;
+      subheading: string;
+      points: {
+        data: string;
+      };
+    };
+  };
+  achievement: {
+    title: string;
+    data: {
+      decription: string;
+    };
+  };
+  license: {
+    title: string;
+    data: {
+      decription: string;
+    };
+  };
+  referee: {
+    title: string;
+    data: {
+      decription: string;
+    };
   };
 }
 
@@ -52,13 +84,16 @@ export default function Home() {
   return (
     <>
       <Contact data={data?.contactInfo} />
-      {data && <Heading>{data?.name}</Heading>}
+      {data && <Heading className="mt-5">{data?.name}</Heading>}
       <Divider className="w-full" />
       <CurrentJob data={data?.csProfile} />
-      <Divider className="w-full" />
       <KeySkill data={data?.keyskills} />
-      <Divider className="w-full" />
       <Qualification data={data?.qualification} />
+      <EmploymentHistory data={data?.employment} />
+      <Achivement data={data?.achievement} />
+      <Divider className="w-full" />
+      <Achivement data={data?.license} />
+      <Achivement data={data?.referee} />
     </>
   );
 }
