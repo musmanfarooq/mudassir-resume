@@ -91,7 +91,6 @@ export default function Home() {
       <Qualification data={data?.qualification} />
       <EmploymentHistory data={data?.employment} />
       <Achivement data={data?.achievement} />
-      <Divider className="w-full" />
       <Achivement data={data?.license} />
       <Achivement data={data?.referee} />
     </>
